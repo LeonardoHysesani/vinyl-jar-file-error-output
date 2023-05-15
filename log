@@ -1,0 +1,237 @@
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.0.1)
+
+04:58:10.524 [main] INFO com.leonardo.vinyltracker.VinylTrackerApplication - Starting VinylTrackerApplication using Java 17.0.7 with PID 11516 (/home/leonardo/IdeaProjects/VinylTracker/out/artifacts/VinylTracker_jar/VinylTracker.jar started by leonardo in /home/leonardo/IdeaProjects/VinylTracker)
+04:58:10.527 [main] DEBUG com.leonardo.vinyltracker.VinylTrackerApplication - Running with Spring Boot, Spring
+04:58:10.528 [main] INFO com.leonardo.vinyltracker.VinylTrackerApplication - No active profile set, falling back to 1 default profile: "default"
+04:58:10.529 [main] DEBUG org.springframework.boot.SpringApplication - Loading source class com.leonardo.vinyltracker.VinylTrackerApplication
+04:58:10.566 [main] DEBUG org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6328d34a
+04:58:10.572 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+04:58:10.606 [main] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: URL [jar:file:/home/leonardo/IdeaProjects/VinylTracker/out/artifacts/VinylTracker_jar/VinylTracker.jar!/com/leonardo/vinyltracker/api/ApiService.class]
+04:58:10.614 [main] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: URL [jar:file:/home/leonardo/IdeaProjects/VinylTracker/out/artifacts/VinylTracker_jar/VinylTracker.jar!/com/leonardo/vinyltracker/api/ApiController.class]
+04:58:10.616 [main] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: URL [jar:file:/home/leonardo/IdeaProjects/VinylTracker/out/artifacts/VinylTracker_jar/VinylTracker.jar!/com/leonardo/vinyltracker/manager/ManagerService.class]
+04:58:10.617 [main] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: URL [jar:file:/home/leonardo/IdeaProjects/VinylTracker/out/artifacts/VinylTracker_jar/VinylTracker.jar!/com/leonardo/vinyltracker/manager/ManagerController.class]
+04:58:10.916 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'propertySourcesPlaceholderConfigurer'
+04:58:10.922 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.sql.init.dependency.DatabaseInitializationDependencyConfigurer$DependsOnDatabaseInitializationPostProcessor'
+04:58:10.922 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+04:58:10.923 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+04:58:10.925 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+04:58:10.926 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+04:58:10.927 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+04:58:10.928 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor'
+04:58:10.928 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.internalConfigurationPropertiesBinder'
+04:58:10.928 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.internalConfigurationPropertiesBinderFactory'
+04:58:10.929 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+04:58:10.949 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'persistenceExceptionTranslationPostProcessor'
+04:58:10.952 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'persistenceExceptionTranslationPostProcessor' via factory method to bean named 'environment'
+04:58:10.956 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'vinylTrackerApplication'
+04:58:10.965 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'apiService'
+04:58:10.966 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'apiController'
+04:58:10.969 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'apiController' via constructor to bean named 'apiService'
+04:58:10.969 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'managerService'
+04:58:10.985 [main] DEBUG reactor.util.Loggers - Using Slf4j logging framework
+04:58:11.125 [main] DEBUG io.netty.util.internal.logging.InternalLoggerFactory - Using SLF4J as the default logging framework
+04:58:11.127 [main] DEBUG io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+04:58:11.127 [main] DEBUG io.netty.util.internal.PlatformDependent0 - Java version: 17
+04:58:11.128 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+04:58:11.128 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+04:58:11.128 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.storeFence: available
+04:58:11.129 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+04:58:11.129 [main] DEBUG io.netty.util.internal.PlatformDependent0 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+04:58:11.129 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+04:58:11.130 [main] DEBUG io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @50a20713
+04:58:11.130 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+04:58:11.131 [main] DEBUG io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+04:58:11.137 [main] DEBUG io.netty.util.internal.PlatformDependent - maxDirectMemory: 7331643392 bytes (maybe)
+04:58:11.137 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: /tmp (java.io.tmpdir)
+04:58:11.137 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+04:58:11.138 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
+04:58:11.138 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+04:58:11.138 [main] DEBUG io.netty.util.internal.CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
+04:58:11.138 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+04:58:11.153 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+04:58:11.153 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+04:58:11.165 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+04:58:11.166 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+Connecting database... ApiServiceConnection
+04:58:11.191 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'managerController'
+04:58:11.192 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'managerController' via constructor to bean named 'managerService'
+04:58:11.193 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.AutoConfigurationPackages'
+04:58:11.194 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration'
+04:58:11.194 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration'
+04:58:11.194 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'standardJacksonObjectMapperBuilderCustomizer'
+04:58:11.194 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties'
+04:58:11.196 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.properties.BoundConfigurationProperties'
+04:58:11.214 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'standardJacksonObjectMapperBuilderCustomizer' via factory method to bean named 'spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties'
+04:58:11.215 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'parameterNamesModule'
+04:58:11.216 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration'
+04:58:11.218 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'jsonMixinModule'
+04:58:11.219 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonMixinConfiguration'
+04:58:11.220 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'jsonMixinModuleEntries'
+04:58:11.220 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'jsonMixinModuleEntries' via factory method to bean named 'org.springframework.context.annotation.AnnotationConfigApplicationContext@6328d34a'
+04:58:11.220 [main] DEBUG org.springframework.boot.autoconfigure.AutoConfigurationPackages - @EnableAutoConfiguration was declared on a class in the package 'com.leonardo.vinyltracker'. Automatic @Repository and @Entity scanning is enabled.
+04:58:11.229 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'jsonMixinModule' via factory method to bean named 'org.springframework.context.annotation.AnnotationConfigApplicationContext@6328d34a'
+04:58:11.229 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'jsonMixinModule' via factory method to bean named 'jsonMixinModuleEntries'
+04:58:11.230 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'jsonComponentModule'
+04:58:11.230 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration'
+04:58:11.233 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.properties.EnableConfigurationPropertiesRegistrar.methodValidationExcludeFilter'
+04:58:11.235 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration'
+04:58:11.236 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration'
+04:58:11.236 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'jacksonObjectMapper'
+04:58:11.238 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'jacksonObjectMapperBuilder' via factory method to bean named 'org.springframework.context.annotation.AnnotationConfigApplicationContext@6328d34a'
+04:58:11.239 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'jacksonObjectMapperBuilder' via factory method to bean named 'standardJacksonObjectMapperBuilderCustomizer'
+04:58:11.241 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'jacksonObjectMapper' via factory method to bean named 'jacksonObjectMapperBuilder'
+04:58:11.249 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.http.codec.CodecsAutoConfiguration$DefaultCodecsConfiguration'
+04:58:11.249 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'defaultCodecCustomizer'
+04:58:11.250 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'spring.codec-org.springframework.boot.autoconfigure.codec.CodecProperties'
+04:58:11.251 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'defaultCodecCustomizer' via factory method to bean named 'spring.codec-org.springframework.boot.autoconfigure.codec.CodecProperties'
+04:58:11.252 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.http.codec.CodecsAutoConfiguration$JacksonCodecConfiguration'
+04:58:11.252 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'jacksonCodecCustomizer'
+04:58:11.252 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'jacksonCodecCustomizer' via factory method to bean named 'jacksonObjectMapper'
+04:58:11.253 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.http.codec.CodecsAutoConfiguration'
+04:58:11.253 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.transaction.jta.JtaAutoConfiguration'
+04:58:11.253 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration'
+04:58:11.254 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'taskExecutorBuilder'
+04:58:11.254 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'spring.task.execution-org.springframework.boot.autoconfigure.task.TaskExecutionProperties'
+04:58:11.256 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'taskExecutorBuilder' via factory method to bean named 'spring.task.execution-org.springframework.boot.autoconfigure.task.TaskExecutionProperties'
+04:58:11.258 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$AspectJAutoProxyingConfiguration$CglibAutoProxyConfiguration'
+04:58:11.259 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$AspectJAutoProxyingConfiguration'
+04:58:11.259 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.aop.AopAutoConfiguration'
+04:58:11.259 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.availability.ApplicationAvailabilityAutoConfiguration'
+04:58:11.259 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'applicationAvailability'
+04:58:11.260 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration'
+04:58:11.261 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'spring.jpa-org.springframework.boot.autoconfigure.orm.jpa.JpaProperties'
+04:58:11.264 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration'
+04:58:11.265 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties'
+04:58:11.270 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration'
+04:58:11.272 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'platformTransactionManagerCustomizers'
+04:58:11.274 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'spring.transaction-org.springframework.boot.autoconfigure.transaction.TransactionProperties'
+04:58:11.277 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration'
+04:58:11.277 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.context.LifecycleAutoConfiguration'
+04:58:11.277 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'lifecycleProcessor'
+04:58:11.278 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'spring.lifecycle-org.springframework.boot.autoconfigure.context.LifecycleProperties'
+04:58:11.279 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'lifecycleProcessor' via factory method to bean named 'spring.lifecycle-org.springframework.boot.autoconfigure.context.LifecycleProperties'
+04:58:11.280 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.dao.PersistenceExceptionTranslationAutoConfiguration'
+04:58:11.281 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration$StringHttpMessageConverterConfiguration'
+04:58:11.281 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'stringHttpMessageConverter'
+04:58:11.281 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'stringHttpMessageConverter' via factory method to bean named 'environment'
+04:58:11.287 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration$MappingJackson2HttpMessageConverterConfiguration'
+04:58:11.288 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mappingJackson2HttpMessageConverter'
+04:58:11.288 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'mappingJackson2HttpMessageConverter' via factory method to bean named 'jacksonObjectMapper'
+04:58:11.289 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration'
+04:58:11.290 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration'
+04:58:11.290 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'messageConverters'
+04:58:11.307 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration'
+04:58:11.309 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'spring.info-org.springframework.boot.autoconfigure.info.ProjectInfoProperties'
+04:58:11.311 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration' via constructor to bean named 'spring.info-org.springframework.boot.autoconfigure.info.ProjectInfoProperties'
+04:58:11.311 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.task.TaskSchedulingAutoConfiguration'
+04:58:11.312 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'taskSchedulerBuilder'
+04:58:11.313 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'spring.task.scheduling-org.springframework.boot.autoconfigure.task.TaskSchedulingProperties'
+04:58:11.314 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'taskSchedulerBuilder' via factory method to bean named 'spring.task.scheduling-org.springframework.boot.autoconfigure.task.TaskSchedulingProperties'
+04:58:11.316 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.netty.NettyAutoConfiguration'
+04:58:11.317 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'spring.netty-org.springframework.boot.autoconfigure.netty.NettyProperties'
+04:58:11.318 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.netty.NettyAutoConfiguration' via constructor to bean named 'spring.netty-org.springframework.boot.autoconfigure.netty.NettyProperties'
+04:58:11.318 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration'
+04:58:11.319 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'spring.sql.init-org.springframework.boot.autoconfigure.sql.init.SqlInitializationProperties'
+04:58:11.321 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.client.RestTemplateAutoConfiguration'
+04:58:11.322 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.reactive.function.client.ClientHttpConnectorConfiguration$ReactorNetty'
+04:58:11.322 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'reactorClientResourceFactory'
+04:58:11.325 [main] DEBUG reactor.netty.tcp.TcpResources - [http] resources will use the default LoopResources: DefaultLoopResources {prefix=reactor-http, daemon=true, selectCount=16, workerCount=16}
+04:58:11.326 [main] DEBUG reactor.netty.tcp.TcpResources - [http] resources will use the default ConnectionProvider: reactor.netty.resources.DefaultPooledConnectionProvider@e9dc4d0
+04:58:11.326 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.reactive.function.client.ClientHttpConnectorAutoConfiguration'
+04:58:11.326 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.reactive.function.client.WebClientAutoConfiguration$WebClientCodecsConfiguration'
+04:58:11.326 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'exchangeStrategiesCustomizer'
+04:58:11.328 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.reactive.function.client.WebClientAutoConfiguration'
+04:58:11.338 [main] INFO com.leonardo.vinyltracker.VinylTrackerApplication - Started VinylTrackerApplication in 0.942 seconds (process running for 1.083)
+04:58:11.517 [PricekeeperThread] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+04:58:11.517 [PricekeeperThread] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+04:58:11.518 [PricekeeperThread] DEBUG io.netty.util.NetUtilInitializations - Loopback interface: lo (lo, 0:0:0:0:0:0:0:1%lo)
+04:58:11.518 [PricekeeperThread] DEBUG io.netty.util.NetUtil - /proc/sys/net/core/somaxconn: 4096
+04:58:11.527 [PricekeeperThread] DEBUG org.springframework.web.reactive.function.client.ExchangeFunctions - [266dd338] HTTP GET https://api.discogs.com/marketplace/listings/2473358078
+04:58:11.536 [PricekeeperThread] DEBUG io.netty.handler.ssl.OpenSsl - netty-tcnative not in the classpath; OpenSslEngine will be unavailable.
+04:58:11.568 [PricekeeperThread] DEBUG io.netty.handler.ssl.JdkSslContext - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+04:58:11.568 [PricekeeperThread] DEBUG io.netty.handler.ssl.JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+04:58:11.576 [PricekeeperThread] DEBUG reactor.netty.resources.DefaultLoopIOUring - Default io_uring support : false
+04:58:11.587 [PricekeeperThread] DEBUG io.netty.util.internal.NativeLibraryLoader - -Dio.netty.native.workdir: /tmp (io.netty.tmpdir)
+04:58:11.587 [PricekeeperThread] DEBUG io.netty.util.internal.NativeLibraryLoader - -Dio.netty.native.deleteLibAfterLoading: true
+04:58:11.587 [PricekeeperThread] DEBUG io.netty.util.internal.NativeLibraryLoader - -Dio.netty.native.tryPatchShadedId: true
+04:58:11.587 [PricekeeperThread] DEBUG io.netty.util.internal.NativeLibraryLoader - -Dio.netty.native.detectNativeLibraryDuplicates: true
+04:58:11.591 [PricekeeperThread] DEBUG io.netty.util.internal.NativeLibraryLoader - Successfully loaded the library /tmp/libnetty_transport_native_epoll_x86_643670032400736036499.so
+04:58:11.592 [PricekeeperThread] DEBUG reactor.netty.resources.DefaultLoopEpoll - Default Epoll support : true
+04:58:11.594 [PricekeeperThread] DEBUG io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 32
+04:58:11.604 [PricekeeperThread] DEBUG io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+04:58:11.616 [PricekeeperThread] DEBUG io.netty.resolver.DefaultHostsFileEntriesResolver - -Dio.netty.hostsFileRefreshInterval: 0
+04:58:11.620 [PricekeeperThread] DEBUG reactor.netty.resources.PooledConnectionProvider - Creating a new [http] client pool [PoolFactory{evictionInterval=PT0S, leasingStrategy=fifo, maxConnections=500, maxIdleTime=-1, maxLifeTime=-1, metricsEnabled=false, pendingAcquireMaxCount=1000, pendingAcquireTimeout=45000}] for [api.discogs.com/<unresolved>:443]
+04:58:11.634 [PricekeeperThread] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 11516 (auto-detected)
+04:58:11.635 [PricekeeperThread] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 04:7c:16:ff:fe:51:bd:ae (auto-detected)
+04:58:11.643 [PricekeeperThread] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 32
+04:58:11.643 [PricekeeperThread] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 32
+04:58:11.643 [PricekeeperThread] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+04:58:11.643 [PricekeeperThread] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
+04:58:11.643 [PricekeeperThread] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
+04:58:11.643 [PricekeeperThread] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+04:58:11.643 [PricekeeperThread] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+04:58:11.643 [PricekeeperThread] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+04:58:11.643 [PricekeeperThread] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+04:58:11.643 [PricekeeperThread] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+04:58:11.643 [PricekeeperThread] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
+04:58:11.643 [PricekeeperThread] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+04:58:11.656 [PricekeeperThread] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+04:58:11.656 [PricekeeperThread] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+04:58:11.656 [PricekeeperThread] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+04:58:11.664 [reactor-http-epoll-2] DEBUG reactor.netty.resources.PooledConnectionProvider - [c07dad8e] Created a new pooled channel, now: 0 active connections, 0 inactive connections and 0 pending acquire requests.
+04:58:11.679 [reactor-http-epoll-2] DEBUG reactor.netty.tcp.SslProvider - [c07dad8e] SSL enabled using engine SSLEngine[hostname=api.discogs.com, port=443, Session(1684115891670|SSL_NULL_WITH_NULL_NULL)] and SNI api.discogs.com/<unresolved>:443
+04:58:11.688 [reactor-http-epoll-2] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+04:58:11.688 [reactor-http-epoll-2] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+04:58:11.688 [reactor-http-epoll-2] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@4d15a658
+04:58:11.691 [reactor-http-epoll-2] DEBUG reactor.netty.transport.TransportConfig - [c07dad8e] Initialized pipeline DefaultChannelPipeline{(reactor.left.sslHandler = io.netty.handler.ssl.SslHandler), (reactor.left.sslReader = reactor.netty.tcp.SslProvider$SslReadHandler), (reactor.left.httpCodec = io.netty.handler.codec.http.HttpClientCodec), (reactor.left.httpDecompressor = io.netty.handler.codec.http.HttpContentDecompressor), (reactor.right.reactiveBridge = reactor.netty.channel.ChannelOperationsHandler)}
+04:58:11.703 [reactor-http-epoll-1] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@1650108e
+04:58:11.704 [reactor-http-epoll-1] DEBUG io.netty.resolver.dns.DnsQueryContext - [id: 0xa3605d5d] WRITE: UDP, [52473: /127.0.0.53:53], DefaultDnsQuestion(api.discogs.com. IN A)
+04:58:11.706 [reactor-http-epoll-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+04:58:11.706 [reactor-http-epoll-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+04:58:11.706 [reactor-http-epoll-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.chunkSize: 32
+04:58:11.706 [reactor-http-epoll-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.blocking: false
+04:58:11.711 [reactor-http-epoll-1] DEBUG io.netty.resolver.dns.DnsQueryContext - [id: 0xa3605d5d] WRITE: UDP, [53996: /127.0.0.53:53], DefaultDnsQuestion(api.discogs.com. IN AAAA)
+04:58:11.716 [reactor-http-epoll-1] DEBUG io.netty.resolver.dns.DnsNameResolver - [id: 0xa3605d5d] RECEIVED: UDP [52473: /127.0.0.53:53], DatagramDnsResponse(from: /127.0.0.53:53, 52473, QUERY(0), NoError(0), RD RA)
+	DefaultDnsQuestion(api.discogs.com. IN A)
+	DefaultDnsRawRecord(api.discogs.com. 264 IN CNAME 36B)
+	DefaultDnsRawRecord(api.discogs.com.cdn.cloudflare.net. 264 IN A 4B)
+	DefaultDnsRawRecord(api.discogs.com.cdn.cloudflare.net. 264 IN A 4B)
+	DefaultDnsRawRecord(api.discogs.com.cdn.cloudflare.net. 264 IN AAAA 16B)
+	DefaultDnsRawRecord(api.discogs.com.cdn.cloudflare.net. 264 IN AAAA 16B)
+	DefaultDnsRawRecord(OPT flags:0 udp:65494 0B)
+04:58:11.717 [reactor-http-epoll-1] DEBUG io.netty.resolver.dns.DnsQueryContext - [id: 0xa3605d5d] WRITE: UDP, [46111: /127.0.0.53:53], DefaultDnsQuestion(api.discogs.com.cdn.cloudflare.net. IN A)
+04:58:11.718 [reactor-http-epoll-1] DEBUG io.netty.resolver.dns.DnsNameResolver - [id: 0xa3605d5d] RECEIVED: UDP [53996: /127.0.0.53:53], DatagramDnsResponse(from: /127.0.0.53:53, 53996, QUERY(0), NoError(0), RD RA)
+	DefaultDnsQuestion(api.discogs.com. IN AAAA)
+	DefaultDnsRawRecord(api.discogs.com. 264 IN CNAME 36B)
+	DefaultDnsRawRecord(api.discogs.com.cdn.cloudflare.net. 264 IN AAAA 16B)
+	DefaultDnsRawRecord(api.discogs.com.cdn.cloudflare.net. 264 IN AAAA 16B)
+	DefaultDnsRawRecord(OPT flags:0 udp:65494 0B)
+04:58:11.718 [reactor-http-epoll-1] DEBUG io.netty.resolver.dns.DnsQueryContext - [id: 0xa3605d5d] WRITE: UDP, [38131: /127.0.0.53:53], DefaultDnsQuestion(api.discogs.com.cdn.cloudflare.net. IN AAAA)
+04:58:11.719 [reactor-http-epoll-1] DEBUG io.netty.resolver.dns.DnsNameResolver - [id: 0xa3605d5d] RECEIVED: UDP [46111: /127.0.0.53:53], DatagramDnsResponse(from: /127.0.0.53:53, 46111, QUERY(0), NoError(0), RD RA)
+	DefaultDnsQuestion(api.discogs.com.cdn.cloudflare.net. IN A)
+	DefaultDnsRawRecord(api.discogs.com.cdn.cloudflare.net. 264 IN A 4B)
+	DefaultDnsRawRecord(api.discogs.com.cdn.cloudflare.net. 264 IN A 4B)
+	DefaultDnsRawRecord(OPT flags:0 udp:65494 0B)
+04:58:11.720 [reactor-http-epoll-2] DEBUG reactor.netty.transport.TransportConnector - [c07dad8e] Connecting to [api.discogs.com/104.18.28.109:443].
+04:58:11.720 [reactor-http-epoll-1] DEBUG io.netty.resolver.dns.DnsNameResolver - [id: 0xa3605d5d] RECEIVED: UDP [38131: /127.0.0.53:53], DatagramDnsResponse(from: /127.0.0.53:53, 38131, QUERY(0), NoError(0), RD RA)
+	DefaultDnsQuestion(api.discogs.com.cdn.cloudflare.net. IN AAAA)
+	DefaultDnsRawRecord(api.discogs.com.cdn.cloudflare.net. 264 IN AAAA 16B)
+	DefaultDnsRawRecord(api.discogs.com.cdn.cloudflare.net. 264 IN AAAA 16B)
+	DefaultDnsRawRecord(OPT flags:0 udp:65494 0B)
+04:58:11.730 [reactor-http-epoll-2] DEBUG reactor.netty.resources.DefaultPooledConnectionProvider - [c07dad8e, L:/192.168.1.51:59230 - R:api.discogs.com/104.18.28.109:443] Registering pool release on close event for channel
+04:58:11.731 [reactor-http-epoll-2] DEBUG reactor.netty.resources.PooledConnectionProvider - [c07dad8e, L:/192.168.1.51:59230 - R:api.discogs.com/104.18.28.109:443] Channel connected, now: 1 active connections, 0 inactive connections and 0 pending acquire requests.
+04:58:11.798 [reactor-http-epoll-2] DEBUG io.netty.handler.ssl.SslHandler - [id: 0xc07dad8e, L:/192.168.1.51:59230 - R:api.discogs.com/104.18.28.109:443] HANDSHAKEN: protocol:TLSv1.3 cipher suite:TLS_AES_128_GCM_SHA256
+04:58:11.799 [reactor-http-epoll-2] DEBUG reactor.netty.resources.DefaultPooledConnectionProvider - [c07dad8e, L:/192.168.1.51:59230 - R:api.discogs.com/104.18.28.109:443] onStateChange(PooledConnection{channel=[id: 0xc07dad8e, L:/192.168.1.51:59230 - R:api.discogs.com/104.18.28.109:443]}, [connected])
+04:58:11.804 [reactor-http-epoll-2] DEBUG reactor.netty.resources.DefaultPooledConnectionProvider - [c07dad8e-1, L:/192.168.1.51:59230 - R:api.discogs.com/104.18.28.109:443] onStateChange(GET{uri=null, connection=PooledConnection{channel=[id: 0xc07dad8e, L:/192.168.1.51:59230 - R:api.discogs.com/104.18.28.109:443]}}, [configured])
+04:58:11.805 [reactor-http-epoll-2] DEBUG reactor.netty.http.client.HttpClientConnect - [c07dad8e-1, L:/192.168.1.51:59230 - R:api.discogs.com/104.18.28.109:443] Handler is being applied: {uri=https://api.discogs.com/marketplace/listings/2473358078, method=GET}
+04:58:11.806 [reactor-http-epoll-2] DEBUG reactor.netty.resources.DefaultPooledConnectionProvider - [c07dad8e-1, L:/192.168.1.51:59230 - R:api.discogs.com/104.18.28.109:443] onStateChange(GET{uri=/marketplace/listings/2473358078, connection=PooledConnection{channel=[id: 0xc07dad8e, L:/192.168.1.51:59230 - R:api.discogs.com/104.18.28.109:443]}}, [request_prepared])
+04:58:11.813 [reactor-http-epoll-2] DEBUG reactor.netty.resources.DefaultPooledConnectionProvider - [c07dad8e-1, L:/192.168.1.51:59230 - R:api.discogs.com/104.18.28.109:443] onStateChange(GET{uri=/marketplace/listings/2473358078, connection=PooledConnection{channel=[id: 0xc07dad8e, L:/192.168.1.51:59230 - R:api.discogs.com/104.18.28.109:443]}}, [request_sent])
+04:58:12.137 [reactor-http-epoll-2] DEBUG io.netty.handler.codec.compression.ZlibCodecFactory - -Dio.netty.noJdkZlibDecoder: false
+04:58:12.137 [reactor-http-epoll-2] DEBUG io.netty.handler.codec.compression.ZlibCodecFactory - -Dio.netty.noJdkZlibEncoder: false
+04:58:12.141 [reactor-http-epoll-2] DEBUG reactor.netty.http.client.HttpClientOperations - [c07dad8e-1, L:/192.168.1.51:59230 - R:api.discogs.com/104.18.28.109:443] Received response (auto-read:false) : RESPONSE(decodeResult: success, version: HTTP/1.1)
