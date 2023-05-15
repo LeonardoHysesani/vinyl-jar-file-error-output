@@ -1,4 +1,6 @@
-  .   ____          _            __ _ _
+/home/leonardo/.jdks/corretto-17.0.7/bin/java -Dfile.encoding=UTF-8 -jar /home/leonardo/IdeaProjects/VinylTracker/out/artifacts/VinylTracker_jar/VinylTracker.jar
+
+.   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
 ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
